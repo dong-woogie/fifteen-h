@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: NotoSansCJKkr;
+}
+
+body {
+  overflow: hidden;
+  color: #1d1d1f;
+}
+
+.content-title {
+  @apply py-10 font-bold text-center;
+
+  color: #1d1d1f;
+  line-height: 1;
+  letter-spacing: normal;
+  font-size: 15px;
+}
+
+.input-file-text {
+  margin: 8px 0 0;
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #8b8b91;
+}
+
+.input-file-description {
+  font-family: NotoSansCJKkr;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: -0.2px;
+  color: #8b8b91;
+}
+
+.accordian-title {
+  margin: 22px 0;
+  padding: 0 20px;
+  font-family: NotoSansCJKkr;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #1d1d1f;
+}
+
+.faq-title {
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.2px;
+  color: #343437;
+}
+
+.Rectangle {
+  padding: 22px 0;
+  border-radius: 1px;
+  background-color: #fff;
+}
+
+.faq-detail > p {
+  margin: 22px 2px 0 0;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: -0.2px;
+  color: #5c5c62;
+}
+
+.none-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.none-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-overlay {
+  background-color: rgba(29, 29, 31, 0.2);
+}
+
+.time-picker-wrapper {
+  height: 432px;
+  margin-top: auto;
+  background: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  box-shadow: 0 -3px 10px 0 rgba(0, 0, 0, 0.04);
+}
+
+.time-picker-setting-button {
+  @apply py-3 pl-4 border border-[#e7e7eb] rounded text-left outline-none leading-[1.71];
+}
+
+.time-picker-modal-button {
+  @apply outline-none py-[14px] text-[14px] leading-[14px] border-b hover:bg-gray-100 active:bg-gray-50;
+}
+
+.none-dragging {
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
